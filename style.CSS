@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+}
+
+.title{
+    color: springgreen;
+    font-size: 2.5em;
+}
+
+img{
+    width: 150px;
+}
+
+.info-section h2{
+    font-size: 1.8 rem;
+}
+
+.info-section p{
+    color: ;
+}
+
+.info-section li{
+    color: ;
+}
+
+.info-section ul{
+    list-style: none;
+}
