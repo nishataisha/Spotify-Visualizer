@@ -1,30 +1,138 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+
 body{
-    background-color: black;
+    background-color:#121212;
     color: white;
-    font-family: 'Indie Flower', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #282828;
+}
+
+#container{
+    background-color:#121212;
+    max-width: 1200px;
+    margin: 20 px auto; /*Center with margin*/
+    padding: 20px;
+    width: 80%;
 }
 
 .title{
-    color: springgreen;
-    font-size: 2.5em;
+    color: #1ED760;
+    font-size: 2.5rem;
+    margin-bottom: 0;
 }
 
 img{
     width: 150px;
 }
 
-.info-section h2{
-    font-size: 1.8 rem;
+.info-section, .results-section{
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+}
+
+.info-section h2, .results-section h2{
+    font-size: 1.8rem;
+    color: white;
+    margin-bottom: 15px;
+    margin-top: 0;
 }
 
 .info-section p{
-    color: ;
+    color:#B3B3B3;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #B3B3B3;
 }
 
 .info-section li{
-    color: ;
+    color:#B3B3B3;
+    margin-bottom: 8px;
 }
 
 .info-section ul{
     list-style: none;
+    padding-left: 0;
 }
+
+.spotify-button, select.spotify-button, .result-button{
+    background-color: black;
+    color: #1db954;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor:pointer;
+    text-decoration: none;
+}
+
+.spotify-button:hover, select.spotify-button:hover, .result-button:hover{
+    background-color: #1ED760;
+    color: black;
+}
+
+#result {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.result-card{
+    background-color: #282828;
+    color: white;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.result-intro-text{
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+footer{
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-top: 1 px solid #282828;
+    margin-top: 40px;
+}
+
+.social-links{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 0.9rem;
+}
+
+.social-links li a{
+    color: #B3B3B3;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-links li a:hover{
+    color: white;
+}
+
+
+

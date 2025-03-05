@@ -11,22 +11,22 @@
     RERERHd3d0RERERERERERERH//wAA+B8AAOAHAADAAwAAwAMAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAMADAADAAwAA4AcAAPgfAAD//wAA"
     rel="icon" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <title>Spotify Data Visualizer</title>
     </head>
 <body>
-    <h1>Hello!!!</h1>
     <header>
         <div>
-            <h1>Spotify Data Visualiser</h1>
+            <h1 class="title">Spotify Data Visualiser</h1>
         </div>
 
         <img src="./logo.png" alt="Spotify Logo">
     </header>
 
-    <section class="info section">
+    <section class="info-section">
         <div>
-            <h2>Abouta</h2>
-            <p>Welcome to the <b> Spotify data visualizer</b>. This project takes a large data set of songs and organizes it into categories you 
-            can select</p>
+            <h2>About</h2>
+            <p>Welcome to the <b> Spotify data visualizer</b>. This project takes a large data set of 
+            songs and organizes it into categories you can select</p>
         </div>
         <div>
             <h2>Visualizations</h2>
@@ -38,21 +38,40 @@
         </div>
     </section>
 
+    <section class = "result-section">
+        <div class = "button-continer">
+            <button class="spotify-button result-button">Most Common Genre</button>
+            <button class="spotify-button result-button">Most Average Year Song Released</button>
+            <button class="spotify-button result-button">Loudest Song</button>
+            <button class="spotify-button result-button">Search</button>
+        </div>
+
+        <div class = "result-card" id="result-card">
+            <div class = "result-content">
+                <h4 class = "result-intro-text">Select a category and chart type to visualze data.</h4>
+            </div>
+        </div>
+    </section>
+
+
 
     <footer>
-        <ul>
+        <ul class="social-links">
             <li>
-                <a href="//put link here">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/daniel-ek-1b52093a/">LinkedIn</a>
             </li>
 
             <li>
-                <a href="//put link here">Instagram</a>
+                <a href="https://www.instagram.com/spotify/">Instagram</a>
             </li>
 
             <li>
-                <a href="//put link here">GitHub</a>
+                <a href="https://github.com/spotify">GitHub</a>
             </li>
         </ul>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script type="module" src="script.js"></script>
 </body>
 </html>
