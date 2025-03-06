@@ -113,6 +113,16 @@ footer{
     margin-top: 40px;
 }
 
+.visit-link a {
+    color: green;
+    text-decoration: none; /* Optional: remove underline */
+}
+
+.visit-link a:hover {
+    color: darkgreen; /* Optional: change color on hover */
+}
+
+
 .social-links{
     margin: 0;
     padding: 0;
