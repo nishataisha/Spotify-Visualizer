@@ -370,7 +370,7 @@ function displayTracks(trackDetails, image) { //displays the tracks of a selecte
         const ctx = canvas.getContext('2d');
 
         new Chart(ctx, {
-            type: 'doughnut',
+            type: 'pie',
             data: {
                 labels: labels,
                 datasets: [{
