@@ -3,8 +3,8 @@
 }
 
 body{
-    background-color:#121212;
-    color: white;
+    background-color: #f8edeb;
+    color: #5d4037;
     margin: 0;
     padding: 0;
 }
@@ -15,19 +15,19 @@ header{
     justify-content: space-between;
     padding-bottom: 20px;
     margin-bottom: 30px;
-    border-bottom: 1px solid #282828;
+    border-bottom: 1px solid #d8c3a5;
 }
 
 #container{
-    background-color:#121212;
+    background-color:#f8edeb;
     max-width: 1200px;
-    margin: 20 px auto; /*Center with margin*/
+    margin: 20px auto; /*Center with margin*/
     padding: 20px;
     width: 80%;
 }
 
 .title{
-    color: #1ED760;
+    color: #e5989b;
     font-size: 2.5rem;
     margin-bottom: 0;
 }
@@ -39,26 +39,26 @@ img{
 .info-section, .results-section{
     margin-bottom: 40px;
     padding: 20px;
-    background-color: #1e1e1e;
+    background-color: #FFFFFF;
     border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .info-section h2, .results-section h2{
     font-size: 1.8rem;
-    color: white;
+    color: 5d4037;
     margin-bottom: 15px;
     margin-top: 0;
 }
 
 .info-section p{
-    color:#B3B3B3;
+    color:#8d6e63;
     font-size: 1rem;
     line-height: 1.6;
-    color: #B3B3B3;
 }
 
 .info-section li{
-    color:#B3B3B3;
+    color: #8d6e63;
     margin-bottom: 8px;
 }
 
@@ -68,8 +68,8 @@ img{
 }
 
 .spotify-button, select.spotify-button, .result-button{
-    background-color: black;
-    color: #1db954;
+    background-color: #e5989b;
+    color: white;
     padding: 12px 24px;
     border: none;
     border-radius: 25px;
@@ -83,21 +83,22 @@ img{
 }
 
 .spotify-button:hover, select.spotify-button:hover, .result-button:hover{
-    background-color: #1ED760;
-    color: black;
+    background-color: #ffb6b9;
+    color: white;
 }
 
 #result {
-    color: white;
+    color: #5d4037;
     font-size: 1.5rem;
     margin-bottom: 20px;
 }
 
 .result-card{
-    background-color: #282828;
-    color: white;
+    background-color: #fff5e1;
+    color: #5d4037;
     border-radius: 10px;
     padding: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .result-intro-text{
@@ -107,19 +108,20 @@ img{
 }
 
 footer{
-    background-color: #1e1e1e;
+    background-color: #d8c3a5;
     padding: 20px;
-    border-top: 1 px solid #282828;
+    border-top: 1 px solid #bfa89e;
     margin-top: 40px;
+    text-align: center;
 }
 
 .visit-link a {
-    color: green;
-    text-decoration: none; /* Optional: remove underline */
+    color: #e5989b; 
+    text-decoration: none; 
 }
 
 .visit-link a:hover {
-    color: darkgreen; /* Optional: change color on hover */
+    color: #c76d7e; 
 }
 
 
@@ -135,13 +137,13 @@ footer{
 }
 
 .social-links li a{
-    color: #B3B3B3;
+    color: #8d6e63;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .social-links li a:hover{
-    color: white;
+    color: #5d4037;
 }
 
 
